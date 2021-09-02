@@ -1,0 +1,140 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+}
+*:active,
+*:focus {
+   outline: none;
+}
+a {
+   text-decoration: none;
+   color: #ffffff;
+}
+.container {
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
+.main {
+   width: 100%;
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 50px 30px;
+   text-align: center;
+}
+.logo {
+   width: 60%;
+}
+.form {
+   margin: 20px 0;
+}
+.password input {
+   margin-top: 12px;
+}
+
+.form__input {
+   position: relative;
+}
+.form__input > p {
+   margin: 0;
+   top: 0;
+   color: #c1c1c1;
+   left: 15px;
+   position: absolute;
+   transition: all 0.3s;
+}
+.form__input > input {
+   padding: 15px;
+   width: 100%;
+   border: 1px solid #c1c1c1c1;
+   border-radius: 5px;
+   box-shadow: 4px 5px 9px 0px rgba(34, 60, 80, 0.14);
+   cursor: pointer;
+}
+.form__input > input:focus + p,
+.form__input > input:not(:placeholder-shown) + p {
+   transform: translate(0, -10px);
+   font-size: 0.5em;
+   font-weight: 500;
+}
+.form__input > input:focus,
+.form__input > input:active {
+   border: 2px solid #ff8b7b;
+}
+
+.btn-block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 12px;
+}
+.submit {
+   width: 45%;
+   padding: 20px 0;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   background-color: #06d6a0;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+   color: #ffffff;
+   cursor: pointer;
+}
+.sign-up {
+   display: block;
+   width: 45%;
+   padding: 20px 0;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   background-color: #407bff;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+   color: #ffffff;
+}
+.autorize-text {
+   font-size: 10px;
+   color: #c4c4c4;
+   text-align: center;
+   margin-top: 12px;
+}
+.log-in-via {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 8px;
+   width: 100%;
+}
+.via {
+   display: block;
+   width: 45%;
+   padding: 20px 0;
+   border-radius: 15px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   background-color: #ffffff;
+   text-align: center;
+   font-weight: bold;
+   font-size: 14px;
+   color: #073b4c;
+}
+.google {
+   border: 2px solid #ffad1d;
+   color: black;
+}
+.facebook {
+   border: 2px solid #407bff;
+   color: black;
+}
+.incognito {
+   width: 100%;
+   border: 2px solid #06d6a0;
+}
+
+.good > input:focus,
+.good > input:active {
+   border: 2px solid #06d6a0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/authorization.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="main">
+         <img class="logo" src="img/logo.png" alt="logo">
+         <form class="form">
+            <label for="email" class="form__input email">
+               <input id="email" type="email" placeholder=" " name="email" required>
+               <p>Email</p>
+            </label>
+            <label for="password" class="form__input password">
+               <input id="password" class="good" type="password" placeholder=" " name="password" required>
+               <p>Пароль</p>
+            </label>
+            <div class="btn-block">
+               <button class="submit" name="submit" type="submit" id="submit">Вхід</button>
+               <a href="#" class="sign-up">Реєстрація</a>
+            </div>
+            <p class="autorize-text">або увійдіть за допомогою:</p>
+            <div class="log-in-via">
+               <a href="#" class="via google">Google</a>
+               <a href="#" class="via facebook">Facebook</a>
+            </div>
+         </form>
+         <a href="organisations.html" class="via incognito">Залишитись інкогніто</a>
+      </div>
+      <script src="js/script.js"></script>
+</body>
+
+</html>
